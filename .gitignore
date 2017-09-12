@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#include <iostream>
+using namespace std;
+int main()
+{
+  const double NORMAL = 98.6;
+  double temperature;
+  cout<<"Enter your temperatur:"<<endl;
+  cin>>temperature;
+  cout<<"Your temperature is;"<< temperature << endl;
+  cout<<"A normal temperature should be"<<NORMAL<<endl;
+  return 0;
